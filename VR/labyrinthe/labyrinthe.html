@@ -3,10 +3,11 @@
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
   </head>
   <body>
-    <a-scene>
+    <a-scene background="color: skyblue">
 
       <a-assets>
-      </a-assets>*
+          <a-asset-item src="tree.glb"></a-asset-item>
+      </a-assets>
 
       <a-camera position="0.375 1.7 0.375"> </a-camera>
 
@@ -26,7 +27,6 @@
       <a-box position="0 1 -1.125" rotation="0 -90 0"  scale="0.75 2 0.01" color="tomato"></a-box>
 
       <a-box position="0.375 0 0.375" scale="0.5 0.01 0.5" color="yellow"> </a-box>
-
 
 
     </a-scene>
